@@ -10,8 +10,8 @@ using YoutubeMovie.Entities.Data;
 namespace YoutubeMovie.Entities.Migrations
 {
     [DbContext(typeof(MovieContext))]
-    [Migration("20210426184302_Berkay26Nisan")]
-    partial class Berkay26Nisan
+    [Migration("20210426184302_Berker26Nisan")]
+    partial class Berker26Nisan
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

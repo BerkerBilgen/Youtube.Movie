@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace YoutubeMovie.Entities.Migrations
 {
-    public partial class Berkay26Nisan : Migration
+    public partial class Berker26Nisan : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
