@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YoutubeMovie.Authentication\YoutubeMovie.Authentication.csproj" />
+    <ProjectReference Include="..\YoutubeMovie.Framework.Common\YoutubeMovie.Framework.Common.csproj" />
+    <ProjectReference Include="..\YoutubeMovie.Repository\YoutubeMovie.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

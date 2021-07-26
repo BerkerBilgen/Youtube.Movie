@@ -1,0 +1,40 @@
+﻿@model YoutubeMovie.CMS.Models.ViewModel.Video 
+@using YoutubeMovie.CMS.Models
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <form asp-action="Create" role="form">
+        <div class="modal-body form-horizontal">
+
+            <div class="form-group">
+                <label asp-for="Name" class="col-lg-3 col-sm-3 control-label"></label>
+                <div class="col-lg-6">
+                    <input asp-for="Name" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="col-lg-3 col-sm-3 control-label"></label>
+                <div class="col-lg-6">
+                    <input asp-for="Description" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="YoutubeId" class="col-lg-3 col-sm-3 control-label"></label>
+                <div class="col-lg-6">
+                    <input asp-for="YoutubeId" class="form-control" />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ImdbId" class="col-lg-3 col-sm-3 control-label"></label>
+                <div class="col-lg-6">
+                    <input asp-for="ImdbId" class="form-control" />
+                </div>
+            </div>
+
+        </div>
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </form>
+</div>

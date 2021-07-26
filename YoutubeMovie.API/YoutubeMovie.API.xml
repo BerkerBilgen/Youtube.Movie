@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>YoutubeMovie.API</name>
+    </assembly>
+    <members>
+        <member name="M:YoutubeMovie.API.Controllers.UserController.Create(YoutubeMovie.API.Models.CreateUserRequest)">
+            <summary>
+            Status -> WaitingConfirmation = 0, Active = 1, Passive = 2
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
